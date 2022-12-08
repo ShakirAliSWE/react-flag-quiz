@@ -1,0 +1,15 @@
+.options {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.options > .option {
+  flex: 50%;
+  width: 100%;
+  padding: 0.5rem;
+}
+
+.options > .option > .option-btn {
+  width: 100%;
+  text-align: left;
+}
